@@ -449,7 +449,7 @@ function addDonationSection() {
   githubLink.querySelector('a').addEventListener('click', (e) => {
     e.preventDefault();
     // Replace with your GitHub repository URL
-    chrome.tabs.create({ url: 'https://github.com/zhacker199/tab-manager' });
+    chrome.tabs.create({ url: 'https://github.com/zacharia1999/tab-manager-extension' });
   });
   donationSection.appendChild(githubLink);
 
