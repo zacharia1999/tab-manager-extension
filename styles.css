@@ -1,0 +1,116 @@
+body {
+  width: 400px;
+  padding: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+.search {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+#save-session {
+  background: #1a73e8;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+#save-session:hover {
+  background: #1557b0;
+}
+.tab-list {
+  max-height: 400px;
+  overflow-y: auto;
+  margin-bottom: 16px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+}
+.tab-group {
+  margin: 8px 0;
+  background: #f8f9fa;
+  border-radius: 4px;
+}
+.group-title {
+  padding: 8px;
+  font-weight: 500;
+  color: #333;
+  background: rgba(0,0,0,0.05);
+}
+.tab-item {
+  padding: 8px 12px;
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+  transition: background-color 0.2s;
+}
+.tab-item:hover {
+  background-color: #f0f0f0;
+}
+.tab-item img {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+.saved-sessions h3 {
+  margin: 0 0 12px 0;
+  color: #333;
+}
+.session {
+  background: #f8f9fa;
+  border-radius: 4px;
+  padding: 12px;
+  margin-bottom: 8px;
+}
+.session-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.session-buttons button {
+  padding: 6px 12px;
+  margin-left: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+}
+.session-buttons button:first-child {
+  background: #1a73e8;
+  color: white;
+}
+.session-buttons button:last-child {
+  background: #dc3545;
+  color: white;
+}
+.tabs-count {
+  color: #666;
+  font-size: 13px;
+}
+/ Group controls */
+.grouping-controls {
+  margin-bottom: 15px;
+}
+.grouping-controls button {
+  padding: 8px 16px;
+  margin-right: 8px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.grouping-controls button:hover {
+  background-color: #0056b3;
+}
+.grouping-controls button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}

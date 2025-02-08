@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Manager Pro",
+  "version": "1.0",
+  "description": "Manage tabs with grouping, search, and session saving features",
+  "permissions": [
+    "tabs",
+    "tabGroups",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
